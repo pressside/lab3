@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lab3/style.css"> 
+    <title>YouTube Макет</title>
+</head>
+<body>
+    <!-- Боковая панель -->
+    <aside class="sidebar">
+        <div class="menu-item">Головна</div>
+        <div class="menu-item">Shorts</div>
+        <div class="menu-item">Підписки</div>
+        <div class="menu-item">Ви</div>
+    </aside>
+
+    <!-- Основной контент -->
+    <div class="content-wrapper">
+        <!-- Шапка -->
+        <header class="header">
+            <div class="logo">YouTube</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Введите запрос">
+                <button>Пошук</button>
+            </div>
+        </header>
+
+        <!-- Навигация по категориям -->
+        <nav class="categories">
+            <button>Все</button>
+            <button>Ігри</button>
+            <button>Музика</button>
+            <button>Новини</button>
+            <button>Туризм</button>
+            <button>Спорт</button>
+        </nav>
+
+        <!-- Основной контент с видео -->
+        <main class="main">
+            <div class="video-grid">
+                <div class="video-card">
+                    <iframe width="320" height="180" src="https://www.youtube.com/watch?v=j1yKEDHz4_M" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <h3>Свожу танкистов с ума чавканьем и хлюпаньем</h3>
+                    <p>Azazin Kreet • 1 просмотров • 2 года назад</p>
+                </div>
+
+                <div class="video-card">
+                    <iframe width="320" height="180" src="https://www.youtube.com/watch?v=0BjlBnfHcHM" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <h3>Beat Ronaldo, Win $1,000,000</h3>
+                    <p>Mr.Beast • 94345 млрд^4 просмотров • 25 год назад</p>
+                </div>
+
+                <div class="video-card">
+                    <iframe width="320" height="180" src="https://www.youtube.com/watch?v=Ee4cugFokeg" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <h3>Смешные Моменты | Как Я Встретил Вашу Маму | 1 Сезон</h3>
+                    <p>S01 E01 • 5 млн просмотров • 6 месяцев назад</p>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
